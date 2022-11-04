@@ -1,0 +1,18 @@
+#header('Access-Control-Allow-Origin: *');
+#header('Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS');
+#header('Access-Control-Allow-Headers: X-Requested-With, content-type, X-Token, x-token');
+
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php/$1 [L]
+	
+	RewriteEngine On
+	RewriteBase /
+	RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+	RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+	
+	ErrorDocument 404 https://sistempayrol.xyz
+</IfModule>

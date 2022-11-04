@@ -1,0 +1,15 @@
+[19-Nov-2020 08:22:38 UTC] PHP Fatal error:  Cannot redeclare Admincrud_model::get_jabatan() in /home/sumberb3/public_html/application/models/Admincrud_model.php on line 105
+[22-Nov-2020 15:35:05 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/sumberb3/public_html/application/models/Crud_model.php on line 111
+[05-Dec-2020 21:34:22 UTC] PHP Fatal error:  Cannot redeclare Admincrud_model::terima_lamaran() in /home/sumberb3/public_html/application/models/Admincrud_model.php on line 907
+[13-Dec-2020 02:49:58 UTC] PHP Fatal error:  Cannot redeclare Admincrud_model::get_slip_gaji() in /home/sumberb3/public_html/application/models/Admincrud_model.php on line 1437
+[10-Jul-2021 23:03:20 Asia/Jakarta] PHP Fatal error:  Cannot redeclare All_model::add_pegawai() in /home/sisc5915/public_html/application/models/All_model.php on line 192
+[10-Jul-2021 23:03:30 Asia/Jakarta] PHP Fatal error:  Cannot redeclare All_model::add_pegawai() in /home/sisc5915/public_html/application/models/All_model.php on line 192
+[10-Jul-2021 23:03:46 Asia/Jakarta] PHP Fatal error:  Cannot redeclare All_model::add_pegawai() in /home/sisc5915/public_html/application/models/All_model.php on line 192
+[11-Jul-2021 22:07:05 Asia/Jakarta] PHP Fatal error:  Cannot redeclare All_model::list_pegawai() in /home/sisc5915/public_html/application/models/All_model.php on line 256
+[11-Jul-2021 22:07:05 Asia/Jakarta] PHP Fatal error:  Cannot redeclare All_model::list_pegawai() in /home/sisc5915/public_html/application/models/All_model.php on line 256
+[19-Jul-2021 16:59:22 Asia/Jakarta] PHP Fatal error:  Cannot redeclare All_model::get_absen_today() in /home/sisc5915/public_html/application/models/All_model.php on line 771
+[22-Jul-2021 19:34:35 Asia/Jakarta] PHP Fatal error:  Cannot redeclare All_model::del_cuti() in /home/sisc5915/public_html/application/models/All_model.php on line 1124
+[01-Aug-2021 00:21:04 Asia/Jakarta] PHP Fatal error:  Cannot redeclare All_model::list_cabang() in /home/sisc5915/public_html/application/models/All_model.php on line 1855
+[01-Aug-2021 00:21:05 Asia/Jakarta] PHP Fatal error:  Cannot redeclare All_model::list_cabang() in /home/sisc5915/public_html/application/models/All_model.php on line 1855
+[03-Aug-2021 21:22:41 Asia/Jakarta] PHP Fatal error:  Cannot redeclare All_model::laporan_gaji() in /home/sisc5915/public_html/application/models/All_model.php on line 2260
+[03-Aug-2021 21:22:41 Asia/Jakarta] PHP Fatal error:  Cannot redeclare All_model::laporan_gaji() in /home/sisc5915/public_html/application/models/All_model.php on line 2260
